@@ -7,29 +7,26 @@
   <meta name="description" content="{{ description }}">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="shortcut icon" href="/favicon.png"/>
-  <style media="screen">
-
-  h1{
-    font-size: 90px;
-    color:white;
-  }
-  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+<div class="wrapper">
   <h1>{{ title }}</h1>
   <p id="brief">{{ description }}</p>
 
   <div id="gallery">
+    <p>
     {{#each collections.projects}}
-    <a href="{{this.path}}">{{this.title}} | {{this.author}}</a>
+    <a href="{{this.path}}"><span class="author">{{this.author}}</span> | {{this.title}} </a>
     <br>
     {{/each}}
+    </p>
   </div>
-
+</div>
   <footer>
-    <p>a website made by Qianxun Chen</p>
+    <p>Course offered in WiSe 20/21 @ HfK Bremen<br>a website made by Qianxun Chen</p>
   </footer>
 
 </body>

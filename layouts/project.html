@@ -7,17 +7,19 @@
   <meta name="description" content="{{ description }}">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="shortcut icon" href="/favicon.png"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-      <a href="/#gallery" class="back">←</a>
-  </header>
-
-  <div class="projectWrapper">
+  <div class="wrapper project">
+    <header>
+        <a href="/#gallery" id="back">←</a>
+    </header>
   <img class="featureImage" src="{{featureImage}}" alt="">
-  <h2>{{ title }}</h2>
-  <h5>{{ author }}</h5>
+
+  <h2>{{ author }}</h2>
+  <h5>{{ title }}</h5>
   <div class="description">
     {{{ contents }}}
 
@@ -29,7 +31,7 @@
   {{/each}}
   </div>
 
-  <iframe src="{{video}}" class="vimeo" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="{{video}}" class="vimeo" width="960" height="540" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
   </div>
   </div>
