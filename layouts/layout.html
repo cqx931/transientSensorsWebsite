@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="shortcut icon" href="/favicon.png"/>
+  <style media="screen">
+
+  h1{
+    font-size: 90px;
+    color:white;
+  }
+  </style>
+</head>
+
+<body>
+
+  <h1>{{ title }}</h1>
+  <p id="brief">{{ description }}</p>
+
+  <div id="gallery">
+    {{#each collections.projects}}
+    <a href="{{this.path}}">{{this.title}} | {{this.author}}</a>
+    <br>
+    {{/each}}
+  </div>
+
+  <footer>
+    <p>a website made by Qianxun Chen</p>
+  </footer>
+
+</body>
+</html>

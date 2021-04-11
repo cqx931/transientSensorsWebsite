@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="shortcut icon" href="/favicon.png"/>
+</head>
+
+<body>
+  <header>
+      <a href="/" class="back">←</a>
+  </header>
+
+  <div class="projectWrapper">
+  <img class="featureImage" src="{{featureImage}}" alt="">
+  <h2>{{ title }}</h2>
+  <h5>{{ author }}</h5>
+  <div class="description">
+    {{{ contents }}}
+
+ <div class="imgGallery">
+  {{#each images}}
+  <div class="imgWrapper">
+    <img src="/{{this}}" alt="">
+  </div>
+  {{/each}}
+  </div>
+
+  <iframe src="{{video}}" class="vimeo" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+  </div>
+  </div>
+
+</body>
+</html>

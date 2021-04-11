@@ -1,0 +1,76 @@
+
+body {
+  min-height: 600px;
+  margin:0;
+  background-image: url('../bckgrd.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer{
+  bottom: 0;
+  width: 100%;
+  padding:1.2rem;
+  line-height: 1px;
+  font-size: 9px;
+  font-family: sans-serif;
+  color:grey !important;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+  outline:0;
+}
+a:hover{
+  text-decoration: underline;
+}
+a.website{
+font-size:12px;
+}
+h2 {
+  font-size:55px;
+  margin:0;
+}
+p, a, h5{
+  font-family: sans-serif;
+  font-color:#333;
+  font-size:14px
+}
+.projectWrapper, header{
+  padding:1rem;
+}
+.description p{
+ line-height: 1.2rem;
+}
+iframe.vimeo, .projectWrapper,img.featureImage{
+  max-width:600px;
+  width:90%;
+}
+#gallery, #brief{
+  padding:1em;
+}
+#gallery a{
+  font-size:32px;
+}
+.back {
+  font-size:18px;
+}
+.imgGallery{
+  width:100%;
+  height: auto;
+  overflow: auto;
+  margin-left: -5px;
+}
+.imgGallery .imgWrapper{
+  width:290px;
+  height:180px;
+  overflow: hidden;
+  float:left;
+  margin:5px;
+}
+.imgGallery img{
+  width:100%;
+  height:auto;
+}

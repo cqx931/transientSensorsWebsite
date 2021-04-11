@@ -1,0 +1,3 @@
+src/radio-show/*/*.wav
+node_modules
+build

@@ -1,0 +1,24 @@
+{
+  "name": "transientSensorsWebsite",
+  "version": "0.0.1",
+  "description": "website for Transient Sensors and the Eternal Algorithmic Composition",
+  "main": "index.js",
+  "repository": "https://github.com/cqx931/transientSensorsWebsite",
+  "author": "Qianxun Chen",
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-layouts": "^1.4.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-project-images": "^1.1.2",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-ignore": "^1.0.0",
+    "metalsmith-imagemin": "^4.1.4",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
