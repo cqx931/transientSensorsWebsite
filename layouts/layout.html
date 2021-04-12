@@ -13,13 +13,13 @@
 
 <body>
 <div class="wrapper">
-  <h1>{{ title }}</h1>
+  <h1>Transient Sensors<br>and the Eternal Algorithmic Composition</h1>
   <p id="brief">{{ description }}</p>
 
   <div id="gallery">
     <p>
     {{#each collections.projects}}
-    <a href="{{this.path}}"><span class="author">{{this.author}}</span> | {{this.title}} </a>
+    <a href="{{this.path}}"><span class="author">{{this.author}}</span> | <i>{{this.title}}</i> </a>
     <br>
     {{/each}}
     </p>

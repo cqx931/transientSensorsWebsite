@@ -5,9 +5,9 @@ collection: projects
 video: https://player.vimeo.com/video/532896554
 path: jatawankruesilp--milk_tea_sound_alliance
 layout: project.html
-featureImage: image.png
 description: The project that assembles the variety shaking movement while making a tasty milk tea. Using a simple sensor called an accelerometer, it collects a variety of data from the mobile phone, then uses this information to generate music from that delicious milk tea.
 ---
+<img class="featureImage" src="image.png" alt="">
 
 The project that assembles the variety shaking movement while making a tasty milk tea. Using a simple sensor called an accelerometer, it collects a variety of data from the mobile phone, then uses this information to generate music from that delicious milk tea.
 <br>

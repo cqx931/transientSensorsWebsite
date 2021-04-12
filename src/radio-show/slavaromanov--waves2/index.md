@@ -3,7 +3,6 @@ title: Wave2
 author: Slava Romanov
 collection: projects
 path: slavaromanov--waves2
-featureImage: waves2.png
 layout: project.html
 video: https://player.vimeo.com/video/535248819
 description: Wave2 by Slava Romanov is a generative sonification experiment with a covid hyperobject and related statistical data (January 2020 to March 2021).
