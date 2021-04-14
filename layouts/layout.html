@@ -14,24 +14,30 @@
 
 <body>
 <div class="wrapper">
-  <h1>Transient Sensors<br>and the Eternal Algorithmic Composition</h1>
+
+  <h1>
+    <img src="tsateac.png" alt=""><br>
+    Transient Sensors<br>and the Eternal Algorithmic Composition</h1>
   <p id="brief">{{ description }}</p>
+  <div id="radio">
+  Tune in <a href="http://radioangrezi.de/"> <img src="radio.jpg" width="40" alt="radio angrezi"> </a> @ Friday 16.April 18:30
+  </div>
 
   <div id="gallery">
     <p>
     {{#each collections.projects}}
-
-      <span class="author">{{this.author}}</span> <br>
+    <div class="project">
       <a href="{{this.path}}">
+      <span class="author">{{this.author}}</span> <br>
       <i>{{this.title}}</i>
-    </a>
-    <br>
+      </a>
+      </div>
     {{/each}}
     </p>
   </div>
 </div>
   <footer>
-    <p><i>Course offered in WiSe 20/21 @ HfK Bremen<br>a website made by Qianxun Chen + Nilya Musaeva</i></p>
+    <p><i>a project initiated by Prof. Dennis P Paul, HfK Bremen <br>a website made by Qianxun Chen + Nilya Musaeva</i></p>
   </footer>
 
 </body>

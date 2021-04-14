@@ -27,7 +27,7 @@ function getFilesWithImages(files, imagesKey) {
 var metalsmith = new Metalsmith(__dirname)
   .metadata({
     title: "Transient Sensors and the Eternal Algorithmic Composition",
-    description: " ∞ blurb text by @dennis  ∞",
+    description: "is a series of fungoid, anthropomorphic, playful, milky, crystalline, phytogenic, viral music generating machines.",
     url: "http://transient-sensors-and-the-eternal-algorithmic-composition.digitalmedia-bremen.de/"
   })
   .source('./src')
